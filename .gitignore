@@ -12,6 +12,17 @@ dist
 dist-ssr
 *.local
 
+# Environment
+.env
+.env.*
+!.env.example
+
+# Test output
+coverage
+test-results
+playwright-report
+.playwright
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
