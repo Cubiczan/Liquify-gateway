@@ -1,7 +1,13 @@
-// Vendored from cubiczan-resilience/typescript/src (no npm registry available).
-// Provides safeFetch (per-attempt timeout via AbortController + exponential
-// backoff retry on 429/5xx/network errors) and its supporting primitives.
-export { safeFetch } from "./safeFetch";
+/**
+ * VENDORED COPY — keep in sync with the canonical package.
+ *
+ * Vendored from @cubiczan/resilience (icohangar-ops/cubiczan-resilience,
+ * typescript/src) at typescript-v0.2.0
+ * (commit 37ce1571f5beb751d153ecdc3b1457cd9c871e37).
+ * Check the canonical package for updates before modifying locally; this
+ * copy's scope and intentional local deltas are recorded in VENDOR_COMMIT.txt
+ * beside this file.
+ */export { safeFetch } from "./safeFetch";
 export type { SafeFetchOptions, AllowlistHook } from "./safeFetch";
 export { retry, computeBackoff } from "./retry";
 export type { RetryOptions } from "./retry";
